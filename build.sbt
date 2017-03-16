@@ -9,5 +9,7 @@ scalaVersion := "2.11.7"
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
-  javaWs
+  javaWs,
+  "com.enragedginger" %% "akka-quartz-scheduler" % "1.6.0-akka-2.4.x"
+
 )
